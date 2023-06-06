@@ -1,0 +1,38 @@
+  288  git init
+  289  git remote add origin https://github.com/IFer-21/20230605-IkerMartinez.git
+  290  git branch -M main
+  291  touch comandos.txt main.js index.html
+  292  git commit -m "commit 01 de IkerMartinez"
+  293  git add .
+  294  git commit -m "commit 01 de IkerMartinez"
+  295  git push origin main
+  296  git checkout -b feature01
+  297  mkdir Terminal Hardware
+  298  cd terminal
+  299  touch resumen.txt
+  300  cd ..
+  301  cd Hardware/
+  302  touch resumen.txt
+  303  cd ..
+  304  git status
+  305  git add .
+  306  git status
+  307  git commit -m "commit 02 de IkerMartinez"
+  308  git push origin feature01
+  309  git checkout -b feature02
+  310  cd Terminal/
+  311  nano resument.txt
+  312  nano resumen.txt
+  313  cd ..
+  314  cd Hardware/
+  315  nano resumen.txt
+  316  git add .
+  317  cd ..
+  318  git add .
+  319  git status
+  320  git commit -m "commit 03 de IkerMartinez"
+  321  git push origin feature02
+  322  git checkout main
+  323  history
+  324  mv comandos.txt comandosUtilizados.txt
+  325  history
